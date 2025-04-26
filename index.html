@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="America/Guayaquil">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="shortcut icon" href="static/img/icon.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <!--Menu-->
+    <header class="header">
+        <img class="bg" src="static/img/bg.png" alt="..">
+
+        <div class="menu container">
+            <a href="#" class="logo">Restaurante</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="static/img/menu.png" class="menu-icono" alt="..">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="#desayunos">Desayunos</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#footer">Mas</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="static/img/car.svg" id="img-carrito" alt="...">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <td>Nombre</td>
+                                        <td>Precio</td>
+                                        <td></td>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1> <span>Bienvenido</span> disfruta de nuestros platillos</h1>
+                <p>
+
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="static/img/pl-1.png" alt="..">
+            </div>
+        </div>
+    </header>
+
+    <!--Desayunos-->
+
+    <section class="breakfast container" id="desayunos">
+        <h2>Desayunos</h2>
+        <p>
+            Horario 6am - 9am
+        </p>
+
+        <div class="breakfast-content">
+            <div class="breakfast-1">
+                <img src="static/img/Continental.jpg" alt="..">
+                <h3>Platillo 1</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="static/img/motePillo.png" alt="..">
+                <h3>Platillo 2</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="static/img/Cuy.webp" alt="..">
+                <h3>Platillo 3</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="static/img/Fritada.jpg" alt="..">
+                <h3>Platillo 4</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--Informacion-->
+    <section class="info">
+
+        <img class="bg-2" src="static/img/bg-2.png" alt="..">
+        <div class="info-content container">
+
+            <div class="info-img">
+                <img src="static/img/breakfast.png" alt="..">
+            </div>
+            <div class="info-txt">
+                <h2>La mejor calidad en los productos</h2>
+                <p>
+
+
+
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Productos-->
+    <main class="products container" id="productos">
+
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="static/img/Chuleta.jpg" alt="..">
+                <div class="product-txt">
+                    <h3>Chuleta</h3>
+                    <p>calidad premiun</p>
+                    <p class="precio">2.50$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/img/pescadoFrito.jpg" alt="..">
+                <div class="product-txt">
+                    <h3>Pescado Frito</h3>
+                    <p>calidad premiun</p>
+                    <p class="precio">3.00$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/img/pollo.jpg" alt="..">
+                <div class="product-txt">
+                    <h3>Estofado de Pollo </h3>
+                    <p>calidad premiun</p>
+                    <p class="precio">2.50$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/img/chaulafan.jpg" alt="..">
+                <div class="product-txt">
+                    <h3>Chaulafan</h3>
+                    <p>calidad premiun</p>
+                    <p class="precio">3.50$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/img/PolloHornado.jpg" alt="..">
+                <div class="product-txt">
+                    <h3>Pollo Hornado</h3>
+                    <p>calidad premiun</p>
+                    <p class="precio">2.50$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/img/res.jpg" alt="..">
+                <div class="product-txt">
+                    <h3>Estofado de Res</h3>
+                    <p>calidad premiun</p>
+                    <p class="precio">3.00$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/img/Camaron.webp" alt="..">
+                <div class="product-txt">
+                    <h3>Camaron Apanado</h3>
+                    <p>calidad premiun</p>
+                    <p class="precio">3.00$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/img/arrozRelleno.webp" alt="..">
+                <div class="product-txt">
+                    <h3>Arroz Relleno</h3>
+                    <p>calidad premiun</p>
+                    <p class="precio">2.50$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+
+    </main>
+
+    <hr> </hr>
+
+    <!--pie pagina-->
+    <footer class="footer container" id="footer">
+
+        <div class="footer-links">
+            <div class="link">
+                <h3>Restaurante</h3>
+                <div class="socials">
+                    <ul>
+                        <li><a href="https://github.com/NotAnddy/restaurante.github.io.git"><img src="static/img/icon-github.png" alt=".."></a> </li>
+                        <li><a href="https://github.com/NotAnddy/restaurante.github.io/blob/main/static/img/DiagramaRestaurant.jpg?raw=true"><img src="static/img/icon-diagrama.png" alt=".."></a> </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="link">
+                <h3>ㅤ</h3>
+                <ul>
+                    <li><a>Tel: 123456789</a> </li>
+                    <li><a>Mail: 123@gmail.com</a> </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="static/script.js"></script>
+
+</body>
+</html>
